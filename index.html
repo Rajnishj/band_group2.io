@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+      <meta charset="UTF-8">
+      <title>Band Tempplate</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </head>
+   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+      <header>
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="">Logo</a>
+               </div>
+               <div class="collapse navbar-collapse" id="myNavbar">
+                  <form class="navbar-form navbar-right" action="/action_page.php">
+                       <div class="input-group">
+                         <input type="text" class="form-control" placeholder="Search">
+                         <div class="input-group-btn">
+                           <button class="btn btn-danger" type="submit">
+                             <i class="glyphicon glyphicon-search"></i>
+                           </button>
+                         </div>
+                       </div>
+                     </form>
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a href="#myPage">Home</a></li>
+                     <li><a href="#band">Band</a></li>
+                     <li><a href="#tour">Tour</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                     <li class="dropdo">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="">More <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li><a href="">Merchandise</a></li>
+                           <li><a href="">Extras</a></li>
+                           <li><a href="">Medias</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+               </ol>
+               <div class="carousel-inner">
+                  <div class="item active">
+                     <img src="img/la.jpg" alt="Los Angeles" class="img-responsive" width="100%">
+                     <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>LA is always so much fun!</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <img src="img/chicago.jpg" alt="chicago" class="img-responsive" width="100%">
+                     <div class="carousel-caption">
+                        <h3>Chicago</h3>
+                        <p>Thank you, Chicago!</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <img src="img/chicago.jpg" alt="chicago" class="img-responsive" width="100%">
+                     <div class="carousel-caption">
+                        <h3>New York</h3>
+                        <p>We love the Big Apple!</p>
+                     </div>
+                  </div>
+               </div>
+               <a class="left carousel-control" data-slide="prev" href="#myCarousel">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+               </a>
+               <a class="right carousel-control" data-slide="next" href="#myCarousel">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+               </a>
+            </div>
+      </section>
+      <section id="band" style="margin: 80px auto">
+         <div class="container">
+            <div class="row">
+               <h3 class="text-center">THE BAND</h3>
+               <p class="text-center"><em>We love music!</em></p>
+               <p class="text-center">We have created a fictional band website. Lorem ipsum.</p>
+            </div>
+            <div class="row">
+               <div class="col-md-4 text-center">
+                  <p class="person"><strong>Person</strong></p>
+                  <img src="img/bandmember.jpg" alt="band member" class=" img-circle" width="255" height="255">
+               </div>
+                  <div class="col-md-4 text-center">
+                  <p class="person"><strong>Person</strong></p>
+                  <img src="img/bandmember.jpg" alt="band member" class=" img-circle" width="255" height="255">
+               </div>
+                  <div class="col-md-4 text-center">
+                  <p class="person"><strong>Person</strong></p>
+                  <img src="img/bandmember.jpg" alt="band member" class=" img-circle" width="255" height="255">
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="tour" class="bg-1">
+         <div class="container">
+               <h3 class="text-center">TOUR DATES</h3>
+               <p>Lorem ipsum we'll play you some music</p>
+               <p>Remember to book your tickets!</p>
+               <ul class="list-group">
+                  <li class="list-group-item">September <span class="label label-danger">Sold out!</span></li>
+                  <li class="list-group-item">October <span class="label label-danger">Sold out!</span></li>
+                  <li class="list-group-item">November <span class="badge">3</span></li>
+               </ul>
+               <div class="row text-center">
+                  <div class="col-sm-4">
+                     <div class="thumbnail">
+                        <img src="img/paris.jpg" alt="paris" class="" width="400" height="300">
+                        <h4><em>Paris</em></h4>
+                        <p><em>Friday 27 November 2015</em></p>
+                        <button type="button" class="btn btn-default">Buy Tickets</button>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="thumbnail">
+                        <img src="img/ny.jpg" alt="paris" style="width: 360px;height: 270px">
+                        <h4><em>New York</em></h4>
+                        <p><em>Friday 27 November 2015</em></p>
+                        <button type="button" class="btn btn-default">Buy Tickets</button>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="thumbnail">
+                        <img src="img/sanfran.jpg" alt="paris" class="" width="400" height="300">
+                        <h4><em>San Fransico</em></h4>
+                        <p><em>Sunday 29 November 2015</em></p>
+                        <button type="button" class="btn btn-default">Buy Tickets</button>
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </section>
+      <section id="contact" style="margin: 50px auto">
+         <div class="container">
+            <div class="row">
+               <h3 class="text-center">Contact</h3>
+               <p class="text-center"><em>We love our fans!</em></p>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <p class="text-left">Fan? Drop a note.</p>
+                  <p class="text-left"><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+                  <p class="text-left"><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+                  <p class="text-left"><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+               </div>
+               <div class="col-md-8">
+                  <div class="row">
+                     <div class="col-sm-6 form-group">
+                        <input type="text" name="name" placeholder="name" class="form-control">
+                     </div>
+                     <div class="col-sm-6 form-group">
+                        <input type="email" name="name" placeholder="Email" class="form-control">
+                     </div>
+                  </div>
+                  <textarea style="margin-bottom: 20px" class="form-control" placeholder="comment" name="comment" rows="5"></textarea>
+                  <div class="row">
+                     <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right">Send</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section style="margin-bottom: 50px">
+         <div class="container">
+            <h3 class="text-center">From The Blog</h3>
+            <ul class="nav nav-tabs">
+               <li class="active"><a  data-toggle="tab" href="">Mike</a></li>
+               <li><a data-toggle="tab" href="">Chandler</a></li>
+               <li><a data-toggle="tab" href="">Peter</a></li>
+            </ul>
+            <h1>Mike Ross, Manager</h1>
+            <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+         </div>
+      </section>
+      <section style="margin: 100px auto">
+         <div class="container">
+            <div class="row">
+               <form class="form-horizontal">
+                  <div class="form-group">
+                     <label for="email" class="control-label col-sm-2">Email:</label>
+                     <div class="col-sm-10">
+                        <input type="email" name="email" placeholder="email" class="form-control col-sm-10" id="email">
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="psd" class="control-label col-sm-2">Password:</label>
+                     <div class="col-sm-10">
+                        <input type="Password" name="Password" placeholder="email" class="form-control col-sm-10" id="psd">
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                           <label><input type="checkbox" name="Remember">Remember me</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>
